@@ -5,30 +5,8 @@ import json
 from tqdm import tqdm
 import time
 
-titulos=[]
-resoluciones=[]
-codecs=[]
-fuentes=[]
-fansubs=[]
-audios=[]
-subtitulos=[]
-years = []
-
-anime = {
-        "Título": [],
-        "Fanub": [],
-        "Resolución" : [],
-        "Codec" : [],
-        "Fuente": [],
-        "Audios": [],
-        "Subtitulos": [],
-        "Año" : [],
-    }
-
-#los animès
 animes = {
-}
-
+    }
 
 def tituloBuscar(i):
 
@@ -80,8 +58,6 @@ def fuenteBuscar(i):
     else:
         return "desconocido"
 
-    #return 0
-
 def fansubBuscar(i):
 
     fansubs = []
@@ -110,10 +86,9 @@ def subtitulosBuscar(i):
     
     for i in i.find_all("span",{'class':'subtitulos'}):
             for i in i.find_all("span",{'class':'flag'}):
-            sub = i.get('title')
-            subtitulos.append(sub)
+                sub = i.get('title')
+                subtitulos.append(sub)
         
-
     return subtitulos
 
 def yearBuscar(i):
@@ -130,10 +105,9 @@ def yearBuscar(i):
         return "¿?"
 
 
-
 if __name__ == "__main__":
 
-    for i in tqdm(range(0, 20000)):
+    for i in tqdm(range(0, 20)):
 
         num = str(i)
 
@@ -144,14 +118,6 @@ if __name__ == "__main__":
         soup = BeautifulSoup(ourUrl,'html.parser')
 
         for i in soup.find_all('div',{'class':'ficha'}):
-            # resoluciones.append(resolucionBuscar(i))
-            # titulos.append(tituloBuscar(i))
-            # codecs.append(codecBuscar(i))
-            # fuentes.append(fuenteBuscar(i))
-            # fansubs.append(fansubBuscar(i))
-            # audios.append(audiosBuscar(i))
-            # subtitulos.append(subtitulosBuscar(i))
-            # years.append(yearBuscar(i))
 
             animes[num] = {
                 "Title": tituloBuscar(i),       
@@ -164,36 +130,5 @@ if __name__ == "__main__":
                 "Year": yearBuscar(i)
             }
 
-            #fansubs.append(fansubBuscar(i))
-
-    #print(animes)
-    print(animes)
-
 with open('data.json','w',encoding='utf8') as outfile:
     json.dump(animes,outfile,indent=4,ensure_ascii=False)
-
-
-
-    # for each in titulos:
-    #     print(each)
-
-    # for each in resoluciones:
-    #     print(each)
-
-    # for each in codecs:
-    #     print(each)
-
-    # for each in fuentes:
-    #     print(each)
-
-    # for each in fansubs:
-    #     print(each)
-
-    # for each in audios:
-    #     print(each)
-
-    # for each in subtitulos:
-    #     print(each)
-
-    # for each in years:
-    #     print(each)
