@@ -18,7 +18,7 @@ def tituloBuscar(i):
             titulo.span.decompose()
             titulo=str(titulo).replace('<h2>','')
             titulo=str(titulo).replace('</h2>','')
-            titulo=titulo[1:] #limpia el espacio que tiene el título delante.
+            titulo=titulo[1:]#limpia el espacio que tiene el título delante.
 
     return titulo    
             
@@ -29,8 +29,7 @@ def resolucionBuscar(i):
     resolucion = str(resolucion).replace('<span class="resolucion">','')
 
     if len(resolucion) > 9:
-        #borra la basura extra que pueda haber en esta
-        while len(resolucion) != 9:
+        while len(resolucion) != 9:#borra la basura extra que pueda haber en esta
             resolucion = resolucion[:-1]
         
     resolucion = resolucion.replace(" ","")
