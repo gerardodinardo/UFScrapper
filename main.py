@@ -106,7 +106,7 @@ def yearBuscar(i):
 
 if __name__ == "__main__":
 
-    for i in tqdm(range(0, 20)):
+    for i in tqdm(range(0, 20000)):
 
         num = str(i)
 
