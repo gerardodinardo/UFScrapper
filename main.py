@@ -106,7 +106,7 @@ def yearBuscar(i):
 
 if __name__ == "__main__":
 
-    for i in tqdm(range(0, 20000)):
+    for i in tqdm(range(0, 25000)):
 
         num = str(i)
 
@@ -128,6 +128,7 @@ if __name__ == "__main__":
                 "Subs": subtitulosBuscar(i),
                 "Year": yearBuscar(i)
             }
+            print(animes[num]);            
 
 with open('data.json','w',encoding='utf8') as outfile:
     json.dump(animes,outfile,indent=4,ensure_ascii=False)
