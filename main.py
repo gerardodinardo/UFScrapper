@@ -1,5 +1,5 @@
+import requests
 from bs4 import BeautifulSoup
-import urllib.request
 import re
 import json
 from tqdm import tqdm
@@ -106,29 +106,35 @@ def yearBuscar(i):
 
 if __name__ == "__main__":
 
-    for i in tqdm(range(0, 25000)):
+    params = {
+        'action': 'do_login',
+        'username': '',#introduce tu usuario entre las comillas
+        'password': '',#introdude la contraseña entre las comillas
+        'loginsubmit': 'Inicia+sesi%C3%B3n'
+        }
+    login_url = ('https://foro.unionfansub.com/portal.php?')
 
-        num = str(i)
+    with requests.session() as login:
+        login.post(login_url, data=params)
+        for i in tqdm(range(0, 25000)):
+            num = str(i)
+            time.sleep(0.1)
+            url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
+            request = login.get(url)
+            soup = BeautifulSoup(request.content,'html.parser')
 
-        time.sleep(0.1)
-
-        url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
-        ourUrl=urllib.request.urlopen(url)
-        soup = BeautifulSoup(ourUrl,'html.parser')
-
-        for i in soup.find_all('div',{'class':'ficha'}):
-
-            animes[num] = {
-                "Title": tituloBuscar(i),       
-                "Fansub": fansubBuscar(i),
-                "Resolution": resolucionBuscar(i),
-                "Codec": codecBuscar(i),
-                "Fuente": fuenteBuscar(i),
-                "Audios": audiosBuscar(i),
-                "Subs": subtitulosBuscar(i),
-                "Year": yearBuscar(i)
-            }
-            print(animes[num]);            
+            for i in soup.find_all('div',{'class':'ficha'}):
+                animes[num] = {
+                    "Title": tituloBuscar(i),       
+                    "Fansub": fansubBuscar(i),
+                    "Resolution": resolucionBuscar(i),
+                    "Codec": codecBuscar(i),
+                    "Fuente": fuenteBuscar(i),
+                    "Audios": audiosBuscar(i),
+                    "Subs": subtitulosBuscar(i),
+                    "Year": yearBuscar(i)
+                }
+                print(animes[num]);            
 
 with open('data.json','w',encoding='utf8') as outfile:
     json.dump(animes,outfile,indent=4,ensure_ascii=False)

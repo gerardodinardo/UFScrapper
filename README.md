@@ -12,5 +12,11 @@ pip install beautifulsoup4
 ```
 pip install tqdm
 ```
+## Sobre el login
 
-La versión de python usada para este script ha sido la 3.8.3.
+Desde Octubre del 2021 es necesario estar logeado para poder ver el contenido de las fichas, el script ha sido actualizado para que se puede hacer. Antes de ejecutarlo solo hay que editar las líneas 111 y 112:
+```python
+
+        'username': 'miNombreDeUsuario',
+        'password': 'miContraseñaSuperSegura',#
+```
