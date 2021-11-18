@@ -1,13 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
+import urllib.request
 import re
 import json
 from tqdm import tqdm
 import time
 
+
 animes = {
     }
-
+fansubs_={
+    }
 def tituloBuscar(i):
 
     titulo=i.find('h2')
@@ -104,7 +107,39 @@ def yearBuscar(i):
         return "¿?"
 
 
+def fansubBuscarId(fansubName):
+    fansubs_id = []
+
+
+    for i2 in fansubName:
+        fansub = fansubs_[i2]
+        fansubs_id.append(fansub)
+    
+    return fansubs_id
+
+def fansubsData():
+
+    fansubs_url= 'https://foro.unionfansub.com/fansubs.php'
+    fansubs=urllib.request.urlopen(fansubs_url)
+    soup = BeautifulSoup(fansubs,'html.parser')
+    soup = soup.find('div',{'class':'listado fansubs'})
+    id = 1
+    
+    for i in soup.find_all('div'):
+        
+        fansub_name = i.get_text()    
+        fansubs_[fansub_name] = id
+        id += 1
+        
+    with open('fansubs.json','w',encoding='utf8') as outfile:
+        json.dump(fansubs_,outfile,indent=4,ensure_ascii=False)
+
+
+
 if __name__ == "__main__":
+
+
+    fansubsData()
 
     params = {
         'action': 'do_login',
@@ -127,6 +162,7 @@ if __name__ == "__main__":
                 animes[num] = {
                     "Title": tituloBuscar(i),       
                     "Fansub": fansubBuscar(i),
+                    "Fansub_id": fansubBuscarId(fansubBuscar(i)),
                     "Resolution": resolucionBuscar(i),
                     "Codec": codecBuscar(i),
                     "Fuente": fuenteBuscar(i),
@@ -136,5 +172,5 @@ if __name__ == "__main__":
                 }
                 print(animes[num]);            
 
-with open('data.json','w',encoding='utf8') as outfile:
+with open('animes.json','w',encoding='utf8') as outfile:
     json.dump(animes,outfile,indent=4,ensure_ascii=False)
