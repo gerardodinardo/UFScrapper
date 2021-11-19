@@ -5,7 +5,7 @@ import re
 import json
 from tqdm import tqdm
 import time
-
+import sys
 
 animes = {
     }
@@ -108,12 +108,12 @@ def yearBuscar(i):
 
 
 def fansubBuscarId(fansubName):
+   
     fansubs_id = []
 
-
     for i2 in fansubName:
-        fansub = fansubs_[i2]
-        fansubs_id.append(fansub)
+        if i2 in fansubs_:
+            fansubs_id.append(fansubs_[i2])
     
     return fansubs_id
 
@@ -140,11 +140,12 @@ if __name__ == "__main__":
 
 
     fansubsData()
-
+    
+    #parámetros para el login
     params = {
         'action': 'do_login',
-        'username': '',#introduce tu usuario entre las comillas
-        'password': '',#introdude la contraseña entre las comillas
+        'username': sys.argv[1],
+        'password': sys.argv[2],
         'loginsubmit': 'Inicia+sesi%C3%B3n'
         }
     login_url = ('https://foro.unionfansub.com/portal.php?')
