@@ -16,5 +16,5 @@ pip install tqdm
 
 Desde Octubre del 2021 es necesario estar logeado para poder ver el contenido de las fichas, el script ha sido actualizado para que se pueda hacer, para ello, tenemos que pasar por parámentro nuestro usuario y contraseña, de la siguiente manera:
 ```cmd
-python main.py numbre_de_usuario contraseña
+python src/main.py numbre_de_usuario contraseña
 ```
