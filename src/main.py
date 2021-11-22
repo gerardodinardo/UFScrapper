@@ -5,6 +5,7 @@ import time
 import requests
 import urllib.request
 from tqdm import tqdm
+from isAnime import isAnime
 from bs4 import BeautifulSoup
 from animeId import getAnimeId
 from yearBuscar import yearBuscar
@@ -50,8 +51,8 @@ if __name__ == "__main__":
             url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
             request = login.get(url)
             soup = BeautifulSoup(request.content,'html.parser')
-            
-            if soup.find_all('a', href=re.compile("fid=2")) or soup.find_all('a', href=re.compile("fid=15")):
+          
+            if isAnime(soup):
                 for i in soup.find_all('div',{'class':'ficha'}):
 
                     titulo =  tituloBuscar(i)
