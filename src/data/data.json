@@ -1,7 +1,7 @@
 {
     "3": {
         "Anime_title": "Ao no Exorcist",
-        "Anime_id": 0,
+        "Anime_id": 1,
         "Fansub": [
             "AnimeRakuen"
         ],
@@ -17,18 +17,19 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2011"
+        "Year": "2011",
+        "SFW": true
     },
     "5": {
         "Anime_title": "Ookiku Furikabutte: Natsu no Taikai Hen",
-        "Anime_id": 0,
+        "Anime_id": 2,
         "Fansub": [
             "Anime Underground",
             "Inshuheki"
         ],
         "Fansub_id": [
             79,
-            415
+            417
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -39,11 +40,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "6": {
         "Anime_title": "Kara no Kyoukai",
-        "Anime_id": 0,
+        "Anime_id": 3,
         "Fansub": [
             "Anime Underground"
         ],
@@ -59,11 +61,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2007"
+        "Year": "2007",
+        "SFW": true
     },
     "7": {
         "Anime_title": "Sengoku Basara Ni",
-        "Anime_id": 0,
+        "Anime_id": 4,
         "Fansub": [
             "Anime Underground"
         ],
@@ -79,11 +82,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2009"
+        "Year": "2009",
+        "SFW": true
     },
     "8": {
         "Anime_title": "Moonlight Mile 2nd Season: Touch Down",
-        "Anime_id": 0,
+        "Anime_id": 5,
         "Fansub": [
             "Anime Underground"
         ],
@@ -99,11 +103,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2007"
+        "Year": "2007",
+        "SFW": true
     },
     "9": {
         "Anime_title": "Higashi no Eden",
-        "Anime_id": 0,
+        "Anime_id": 6,
         "Fansub": [
             "Anime Underground"
         ],
@@ -119,11 +124,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2009"
+        "Year": "2009",
+        "SFW": true
     },
     "11": {
         "Anime_title": "Black Lagoon: Roberta's Blood Trail",
-        "Anime_id": 0,
+        "Anime_id": 7,
         "Fansub": [
             "Anime Underground"
         ],
@@ -139,16 +145,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "12": {
         "Anime_title": "Durarara!!",
-        "Anime_id": 0,
+        "Anime_id": 8,
         "Fansub": [
             "Inshuheki"
         ],
         "Fansub_id": [
-            415
+            417
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -159,16 +166,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "13": {
         "Anime_title": "Saraiya Goyou",
-        "Anime_id": 0,
+        "Anime_id": 9,
         "Fansub": [
             "Syzygy"
         ],
         "Fansub_id": [
-            852
+            855
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -179,16 +187,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "14": {
         "Anime_title": "Toaru Kagaku no Railgun",
-        "Anime_id": 0,
+        "Anime_id": 10,
         "Fansub": [
             "Inshuheki"
         ],
         "Fansub_id": [
-            415
+            417
         ],
         "Resolution": "1920x1080",
         "Codec": "H.264",
@@ -199,11 +208,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2009"
+        "Year": "2009",
+        "SFW": true
     },
     "15": {
         "Anime_title": "Panty &amp; Stocking with Garterbelt",
-        "Anime_id": 0,
+        "Anime_id": 11,
         "Fansub": [
             "Backbeard"
         ],
@@ -219,11 +229,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "16": {
         "Anime_title": "Togainu no Chi",
-        "Anime_id": 0,
+        "Anime_id": 12,
         "Fansub": [
             "Backbeard"
         ],
@@ -239,11 +250,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "18": {
         "Anime_title": "Fate/stay night Movie: Unlimited Blade Works",
-        "Anime_id": 0,
+        "Anime_id": 13,
         "Fansub": [
             "AnimeHD"
         ],
@@ -259,11 +271,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "19": {
         "Anime_title": "Jin-Rou",
-        "Anime_id": 0,
+        "Anime_id": 14,
         "Fansub": [
             "AnimeHD"
         ],
@@ -277,11 +290,12 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "1999"
+        "Year": "1999",
+        "SFW": true
     },
     "20": {
         "Anime_title": "Perfect Blue",
-        "Anime_id": 0,
+        "Anime_id": 15,
         "Fansub": [
             "AnimeHD"
         ],
@@ -295,11 +309,12 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "1998"
+        "Year": "1998",
+        "SFW": true
     },
     "21": {
         "Anime_title": "Mobile Police Patlabor the Movie",
-        "Anime_id": 0,
+        "Anime_id": 16,
         "Fansub": [
             "AnimeHD"
         ],
@@ -313,11 +328,12 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "1989"
+        "Year": "1989",
+        "SFW": true
     },
     "22": {
         "Anime_title": "Kidou Keisatsu Patlabor 2 the Movie",
-        "Anime_id": 0,
+        "Anime_id": 17,
         "Fansub": [
             "AnimeHD"
         ],
@@ -331,16 +347,17 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "1993"
+        "Year": "1993",
+        "SFW": true
     },
     "24": {
         "Anime_title": "11eyes",
-        "Anime_id": 0,
+        "Anime_id": 18,
         "Fansub": [
             "Frontalweb Fansub"
         ],
         "Fansub_id": [
-            328
+            330
         ],
         "Resolution": "1920x1080",
         "Codec": "H.264",
@@ -351,11 +368,12 @@
         "Subs": [
             "Latino"
         ],
-        "Year": "2009"
+        "Year": "2009",
+        "SFW": true
     },
     "27": {
         "Anime_title": "Tenchi Muyou! in Love",
-        "Anime_id": 0,
+        "Anime_id": 19,
         "Fansub": [
             "AnimeHD"
         ],
@@ -369,11 +387,12 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "1996"
+        "Year": "1996",
+        "SFW": true
     },
     "28": {
         "Anime_title": "Mnemosyne: Mnemosyne no Musume-tachi",
-        "Anime_id": 0,
+        "Anime_id": 20,
         "Fansub": [
             "AnimeHD"
         ],
@@ -387,16 +406,17 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "2008"
+        "Year": "2008",
+        "SFW": true
     },
     "29": {
         "Anime_title": "Shiki",
-        "Anime_id": 0,
+        "Anime_id": 21,
         "Fansub": [
             "Syzygy"
         ],
         "Fansub_id": [
-            852
+            855
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -407,16 +427,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "30": {
         "Anime_title": "Sora no Otoshimono: Forte",
-        "Anime_id": 0,
+        "Anime_id": 22,
         "Fansub": [
             "Frontalweb Fansub"
         ],
         "Fansub_id": [
-            328
+            330
         ],
         "Resolution": "1920x1080",
         "Codec": "H.264",
@@ -427,11 +448,12 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2010"
+        "Year": "2010",
+        "SFW": true
     },
     "40": {
         "Anime_title": "Witchblade",
-        "Anime_id": 0,
+        "Anime_id": 23,
         "Fansub": [
             "AnimeHD"
         ],
@@ -445,16 +467,17 @@
             "Castellano AAC"
         ],
         "Subs": [],
-        "Year": "2006"
+        "Year": "2006",
+        "SFW": true
     },
     "44": {
         "Anime_title": "Moyashimon",
-        "Anime_id": 0,
+        "Anime_id": 24,
         "Fansub": [
             "Deviants Fansub"
         ],
         "Fansub_id": [
-            233
+            235
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -465,18 +488,19 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2007"
+        "Year": "2007",
+        "SFW": true
     },
     "45": {
         "Anime_title": "Hataraki Man",
-        "Anime_id": 0,
+        "Anime_id": 25,
         "Fansub": [
             "Deviants Fansub",
             "Tanoshii Fansub"
         ],
         "Fansub_id": [
-            233,
-            862
+            235,
+            865
         ],
         "Resolution": "1024x576",
         "Codec": "H.264",
@@ -487,16 +511,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2006"
+        "Year": "2006",
+        "SFW": true
     },
     "46": {
         "Anime_title": "The Third: Aoi Hitomi no Shoujo",
-        "Anime_id": 0,
+        "Anime_id": 26,
         "Fansub": [
             "Deviants Fansub"
         ],
         "Fansub_id": [
-            233
+            235
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -507,16 +532,17 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2006"
+        "Year": "2006",
+        "SFW": true
     },
     "47": {
         "Anime_title": "Dennou Coil",
-        "Anime_id": 0,
+        "Anime_id": 27,
         "Fansub": [
             "Deviants Fansub"
         ],
         "Fansub_id": [
-            233
+            235
         ],
         "Resolution": "1280x720",
         "Codec": "H.264",
@@ -527,18 +553,19 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2007"
+        "Year": "2007",
+        "SFW": true
     },
     "48": {
         "Anime_title": "Zegapain",
-        "Anime_id": 0,
+        "Anime_id": 28,
         "Fansub": [
             "Deviants Fansub",
             "Nanikano Fansub"
         ],
         "Fansub_id": [
-            233,
-            608
+            235,
+            610
         ],
         "Resolution": "848x480",
         "Codec": "H.264",
@@ -549,6 +576,710 @@
         "Subs": [
             "Castellano"
         ],
-        "Year": "2006"
+        "Year": "2006",
+        "SFW": true
+    },
+    "50": {
+        "Anime_title": "Kämpfer",
+        "Anime_id": 29,
+        "Fansub": [
+            "Frontalweb Fansub"
+        ],
+        "Fansub_id": [
+            330
+        ],
+        "Resolution": "1920x1080",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Latino"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "51": {
+        "Anime_title": "Ladies versus Butlers!",
+        "Anime_id": 30,
+        "Fansub": [
+            "Frontalweb Fansub"
+        ],
+        "Fansub_id": [
+            330
+        ],
+        "Resolution": "1920x1080",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Latino"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "55": {
+        "Anime_title": "Cross Game",
+        "Anime_id": 31,
+        "Fansub": [
+            "AnimeRakuen",
+            "Spanishare no Fansub"
+        ],
+        "Fansub_id": [
+            68,
+            831
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "58": {
+        "Anime_title": "Toradora!",
+        "Anime_id": 32,
+        "Fansub": [
+            "Anime Underground",
+            "Tanoshii Fansub"
+        ],
+        "Fansub_id": [
+            79,
+            865
+        ],
+        "Resolution": "1024x576",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2008",
+        "SFW": true
+    },
+    "59": {
+        "Anime_title": "Gosick",
+        "Anime_id": 33,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2011",
+        "SFW": true
+    },
+    "60": {
+        "Anime_title": "Kami nomi zo Shiru Sekai",
+        "Anime_id": 34,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2010",
+        "SFW": true
+    },
+    "61": {
+        "Anime_title": "Kami nomi zo Shiru Sekai II",
+        "Anime_id": 35,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2011",
+        "SFW": true
+    },
+    "62": {
+        "Anime_title": "Aoi Bungaku Series",
+        "Anime_id": 36,
+        "Fansub": [
+            "Anime Underground",
+            "Tanoshii Fansub"
+        ],
+        "Fansub_id": [
+            79,
+            865
+        ],
+        "Resolution": "1920x1080",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés Vorbis"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "63": {
+        "Anime_title": "Hikaru no Go",
+        "Anime_id": 37,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "640x480",
+        "Codec": "DivX",
+        "Fuente": "TV",
+        "Audios": [
+            "Japonés MP3"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2001",
+        "SFW": true
+    },
+    "66": {
+        "Anime_title": "Nodame Cantabile: Paris-hen",
+        "Anime_id": 38,
+        "Fansub": [
+            "AnimeRakuen"
+        ],
+        "Fansub_id": [
+            68
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2008",
+        "SFW": true
+    },
+    "68": {
+        "Anime_title": "Hokuto no Ken",
+        "Anime_id": 39,
+        "Fansub": [
+            "Anime Seiden"
+        ],
+        "Fansub_id": [
+            70
+        ],
+        "Resolution": "640x480",
+        "Codec": "DivX",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés MP3"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "1984",
+        "SFW": true
+    },
+    "69": {
+        "Anime_title": "Hokuto no Ken 2",
+        "Anime_id": 40,
+        "Fansub": [
+            "Anime Seiden"
+        ],
+        "Fansub_id": [
+            70
+        ],
+        "Resolution": "640x480",
+        "Codec": "DivX",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés MP3"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "1987",
+        "SFW": true
+    },
+    "71": {
+        "Anime_title": "C: The Money of Soul and Possibility Control",
+        "Anime_id": 41,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2011",
+        "SFW": true
+    },
+    "72": {
+        "Anime_title": "Densetsu no Yuusha no Densetsu",
+        "Anime_id": 42,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "848x480",
+        "Codec": "H.264",
+        "Fuente": "TV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2010",
+        "SFW": true
+    },
+    "73": {
+        "Anime_title": "Mitsudomoe",
+        "Anime_id": 43,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2010",
+        "SFW": true
+    },
+    "74": {
+        "Anime_title": "Fractale",
+        "Anime_id": 44,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2011",
+        "SFW": true
+    },
+    "75": {
+        "Anime_title": "Yosuga no Sora: In Solitude, Where We Are Least Alone.",
+        "Anime_id": 45,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2010",
+        "SFW": true
+    },
+    "76": {
+        "Anime_title": "White Album",
+        "Anime_id": 46,
+        "Fansub": [
+            "Shiawase Fansub"
+        ],
+        "Fansub_id": [
+            788
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Latino"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "79": {
+        "Anime_title": "Utawarerumono",
+        "Anime_id": 47,
+        "Fansub": [
+            "Nanikano Fansub",
+            "Kapwham Enterprises"
+        ],
+        "Fansub_id": [
+            610,
+            459
+        ],
+        "Resolution": "1920x1080",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2006",
+        "SFW": true
+    },
+    "80": {
+        "Anime_title": "Riding Bean",
+        "Anime_id": 48,
+        "Fansub": [
+            "Nanikano Fansub",
+            "Kapwham Enterprises"
+        ],
+        "Fansub_id": [
+            610,
+            459
+        ],
+        "Resolution": "960x720",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "1989",
+        "SFW": true
+    },
+    "81": {
+        "Anime_title": "Umineko no Naku Koro ni",
+        "Anime_id": 49,
+        "Fansub": [
+            "Dango-Speedo no Fansub"
+        ],
+        "Fansub_id": [
+            202
+        ],
+        "Resolution": "1920x1080",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Latino"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "83": {
+        "Anime_title": "Full Metal Panic!",
+        "Anime_id": 50,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "960x720",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2002",
+        "SFW": true
+    },
+    "84": {
+        "Anime_title": "Full Metal Panic? Fumoffu",
+        "Anime_id": 51,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "960x720",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2003",
+        "SFW": true
+    },
+    "85": {
+        "Anime_title": "Full Metal Panic! The Second Raid",
+        "Anime_id": 52,
+        "Fansub": [
+            "Anime Underground"
+        ],
+        "Fansub_id": [
+            79
+        ],
+        "Resolution": "1024x576",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2005",
+        "SFW": true
+    },
+    "86": {
+        "Anime_title": "Tales of the Abyss",
+        "Anime_id": 53,
+        "Fansub": [
+            "RedLineSP"
+        ],
+        "Fansub_id": [
+            722
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "¿?",
+        "SFW": true
+    },
+    "87": {
+        "Anime_title": "Tetsuwan Birdy Decode",
+        "Anime_id": 54,
+        "Fansub": [
+            "Tanoshii Fansub"
+        ],
+        "Fansub_id": [
+            865
+        ],
+        "Resolution": "1024x576",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2008",
+        "SFW": true
+    },
+    "89": {
+        "Anime_title": "Higurashi no Naku Koro ni",
+        "Anime_id": 55,
+        "Fansub": [
+            "Tanoshii Fansub"
+        ],
+        "Fansub_id": [
+            865
+        ],
+        "Resolution": "848x480",
+        "Codec": "H.264",
+        "Fuente": "DVD",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2006",
+        "SFW": true
+    },
+    "90": {
+        "Anime_title": "Skip Beat!",
+        "Anime_id": 56,
+        "Fansub": [
+            "Athena no Seinto"
+        ],
+        "Fansub_id": [
+            115
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Latino"
+        ],
+        "Year": "2008",
+        "SFW": true
+    },
+    "93": {
+        "Anime_title": "Rosario to Vampire",
+        "Anime_id": 57,
+        "Fansub": [
+            "Dark Club Fansub"
+        ],
+        "Fansub_id": [
+            211
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "Blu-ray",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2008",
+        "SFW": true
+    },
+    "95": {
+        "Anime_title": "Aoi Hana",
+        "Anime_id": 58,
+        "Fansub": [
+            "Tanoshii Fansub"
+        ],
+        "Fansub_id": [
+            865
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "96": {
+        "Anime_title": "Bakuman.",
+        "Anime_id": 59,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2010",
+        "SFW": true
+    },
+    "98": {
+        "Anime_title": "RideBack",
+        "Anime_id": 60,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés MP3"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2009",
+        "SFW": true
+    },
+    "99": {
+        "Anime_title": "Sengoku Basara",
+        "Anime_id": 61,
+        "Fansub": [
+            "Inshuheki"
+        ],
+        "Fansub_id": [
+            417
+        ],
+        "Resolution": "1280x720",
+        "Codec": "H.264",
+        "Fuente": "HDTV",
+        "Audios": [
+            "Japonés AAC"
+        ],
+        "Subs": [
+            "Castellano"
+        ],
+        "Year": "2009",
+        "SFW": true
     }
 }

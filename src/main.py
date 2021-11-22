@@ -23,14 +23,15 @@ animes = {
     }
 entradas = {    
     }
-fansubs_={
+fansubs={
     }
-        
+data = {    
+    }        
 
         
 if __name__ == "__main__":
 
-    getFansubsData(fansubs_)
+    getFansubsData(fansubs)
     
     #parámetros para el login
     params = {
@@ -43,7 +44,7 @@ if __name__ == "__main__":
 
     with requests.session() as login:
         login.post(login_url, data=params)
-        for i in tqdm(range(0, 2500)):
+        for i in tqdm(range(0, 25000)):
             num = str(i)
             time.sleep(0.01)
             url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
@@ -54,12 +55,13 @@ if __name__ == "__main__":
                 for i in soup.find_all('div',{'class':'ficha'}):
 
                     titulo =  tituloBuscar(i)
+                    anime_id = getAnimeId(titulo,animes)
                     fansub = fansubBuscar(i)
                     entradas[num] = {
                         "Anime_title": titulo,       
-                        "Anime_id":getAnimeId(titulo),
+                        "Anime_id": anime_id,
                         "Fansub": fansub,
-                        "Fansub_id": fansubBuscarId(fansubs_,fansub),
+                        "Fansub_id": fansubBuscarId(fansubs,fansub),
                         "Resolution": resolucionBuscar(i),
                         "Codec": codecBuscar(i),
                         "Fuente": fuenteBuscar(i),
