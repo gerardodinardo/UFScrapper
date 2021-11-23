@@ -45,20 +45,21 @@ if __name__ == "__main__":
 
     with requests.session() as login:
         login.post(login_url, data=params)
-        for i in tqdm(range(0, 25000)):
+        
+        for i in tqdm(range(13274, 13275)):
             num = str(i)
             time.sleep(0.01)
             url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
             request = login.get(url)
             soup = BeautifulSoup(request.content,'html.parser')
-          
+            
             if isAnime(soup):
                 for i in soup.find_all('div',{'class':'ficha'}):
-
+                    helper = len(entradas) + 1
                     titulo =  tituloBuscar(i)
                     anime_id = getAnimeId(titulo,animes)
                     fansub = fansubBuscar(i)
-                    entradas[num] = {
+                    entradas[helper] = {
                         "Anime_title": titulo,       
                         "Anime_id": anime_id,
                         "Fansub": fansub,
@@ -71,7 +72,7 @@ if __name__ == "__main__":
                         "Year": yearBuscar(i),
                         "SFW": isSafeForWork(soup)
                     }
-                    print(entradas[num]);                    
+                    print(entradas[helper]);                    
                 
     with open('src/data/data.json','w',encoding='utf8') as outfile:
         json.dump(entradas,outfile,indent=4,ensure_ascii=False)
