@@ -11,5 +11,8 @@ def fuenteBuscar(i):
         return "VHS" 
     elif i.find('span',{'class':'source Laserdisc'}):
         return "Laserdisc"
+    elif i.find('span',{'class':'source Web'}):
+        return "Web-Rip"
     else:
         return "desconocido"
+    
