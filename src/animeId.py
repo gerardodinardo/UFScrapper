@@ -9,7 +9,7 @@ def getAnimeId(titulo, animes):
     animes[titulo] = id
     anime_id = animes[titulo] 
 
-    with open("src/data/animes.json",'w',encoding='utf8') as outfile:
+    with open("src/data/animesIds.json",'w',encoding='utf8') as outfile:
             json.dump(animes,outfile,indent=4,ensure_ascii=False)
     
     return anime_id

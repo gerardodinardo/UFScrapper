@@ -19,15 +19,14 @@ from fansubBuscarId import fansubBuscarId
 from getFansubsData import getFansubsData
 from resolucionBuscar import resolucionBuscar
 from subtitulosBuscar import subtitulosBuscar
+from getChapters import getChapters
+from getPremisa import getPremisa
 
-animes = {
-    }
-entradas = {    
-    }
-fansubs={
-    }
-data = {    
-    }        
+animesId = {}
+entradas = {}
+fansubs={}
+data = {}
+animesData={}
 
         
 if __name__ == "__main__":
@@ -46,7 +45,7 @@ if __name__ == "__main__":
     with requests.session() as login:
         login.post(login_url, data=params)
         
-        for i in tqdm(range(0, 25000)):
+        for i in tqdm(range(0, 100)):
             num = str(i)
             time.sleep(0.01)
             url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
@@ -57,7 +56,7 @@ if __name__ == "__main__":
                 for i in soup.find_all('div',{'class':'ficha'}):
                     helper = len(entradas) + 1
                     titulo =  tituloBuscar(i)
-                    anime_id = getAnimeId(titulo,animes)
+                    anime_id = getAnimeId(titulo,animesId)
                     fansub = fansubBuscar(i)
                     entradas[helper] = {
                         "Anime_title": titulo,       
@@ -65,12 +64,15 @@ if __name__ == "__main__":
                         "Fansub": fansub,
                         "Fansub_id": fansubBuscarId(fansubs,fansub),
                         "Resolution": resolucionBuscar(i),
-                        "Codec": codecBuscar(i),
+                        "Video Codec": codecBuscar(i),
+                        "Chapters": getChapters(i),
                         "Fuente": fuenteBuscar(i),
                         "Audios": audiosBuscar(i),
                         "Subs": subtitulosBuscar(i),
                         "Year": yearBuscar(i),
-                        "SFW": isSafeForWork(soup)
+                        "SFW": isSafeForWork(soup),
+                        "premisa" : getPremisa(soup)
+                        
                     }
                     print(entradas[helper]);                    
                 
