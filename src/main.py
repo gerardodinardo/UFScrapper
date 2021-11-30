@@ -45,7 +45,7 @@ if __name__ == "__main__":
     with requests.session() as login:
         login.post(login_url, data=params)
         
-        for i in tqdm(range(0, 100)):
+        for i in tqdm(range(0, 25000)):
             num = str(i)
             time.sleep(0.01)
             url = 'http://foro.unionfansub.com/showthread.php?tid=' + num
